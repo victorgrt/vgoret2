@@ -1,3 +1,7 @@
+html{
+    text-decoration: none;
+}
+
 body{
     background-color: black;
     margin: 0;
@@ -12,7 +16,7 @@ nav {
     font-size: large;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    top: 0;
+    padding: 10px;
 }
 
 nav>a {
@@ -76,7 +80,9 @@ nav>a:hover {
     margin: 1%;
 }
 
-.projet_lien{
+#projet_lien{
+    color:white;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
