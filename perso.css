@@ -1,12 +1,8 @@
-html{
-    text-decoration: none;
-}
-
 body{
     background-color: black;
     margin: 0;
     font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
-    background: linear-gradient(0.25turn, #2a9d8f, #ebf8e1, #db3a34);
+    background: linear-gradient(0.25turn, white, white, #212529,white,  white);
 }
 
 nav {
@@ -80,13 +76,9 @@ nav>a:hover {
     margin: 1%;
 }
 
-#projet_lien{
-    color:white;
+.projet > a {
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    color:white;
 }
 
 .container{
@@ -101,6 +93,51 @@ nav>a:hover {
     text-align: center;
 }
 
-#logo{
-    position:;
-}
+.info {
+    position: absolute;
+    top: 100%;
+    margin: 1%;
+    transform: translateY(-50%);
+    background-image: url(./img/fr2.png);
+    background-size: contain;
+    width: 20%;
+    height: 40%;
+    box-shadow: 0px 1px 2px 0px rgba(255,0, 0,0.7),
+    1px 2px 4px 0px rgba(255,0, 0,0.7),
+    2px 4px 8px 0px rgba(255,0, 0,0.7),
+    2px 4px 16px 0px rgba(255,0, 0,0.7);
+    border-radius: 10px;
+  }
+
+  .info2 {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    margin: 1%;
+    background-image: url(./img/fr.png);
+    background-size: contain;
+    width: 20%;
+    height: 40%;
+    box-shadow: 0px 1px 2px 0px rgba(255,0, 0,0.7),
+    1px 2px 4px 0px rgba(255,0, 0,0.7),
+    2px 4px 8px 0px rgba(255,0, 0,0.7),
+    2px 4px 16px 0px rgba(255,0, 0,0.7);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info_title{
+    text-align: center;
+    font-size:large;
+    position:absolute;
+    bottom: 0;
+    color: black;
+    height: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    
+  }

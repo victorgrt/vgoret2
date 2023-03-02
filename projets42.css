@@ -12,7 +12,6 @@ nav {
     font-size: large;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    top: 0;
     padding: 10px;
 }
 
@@ -96,28 +95,50 @@ nav>a:hover {
 
 .info {
     position: absolute;
-    top: 75%;
+    top: 100%;
     margin: 1%;
     transform: translateY(-50%);
     background-image: url(./img/piscine_42.png);
     background-size: cover;
     width: 20%;
     height: 40%;
-    box-shadow: 3px 3px 5px 0 rgba(1, 1, 1, 0.5);
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+    1px 2px 4px 0px rgba(0,255,255,0.7),
+    2px 4px 8px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info2 {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    margin: 1%;
+    background-image: url(./img/42_cestquoi.png);
+    background-size: cover;
+    width: 20%;
+    height: 40%;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+    1px 2px 4px 0px rgba(0,255,255,0.7),
+    2px 4px 8px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7);
     border-radius: 10px;
     justify-content: center;
     align-items: center;
   }
 
   .info_title{
-    font-size: large;
+    text-align: center;
+    font-size:large;
     position:absolute;
     bottom: 0;
-    color:white;
+    color: black;
     height: 10%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: black;
+    background-color: white;
     width: 100%;
     margin: 0;
     
