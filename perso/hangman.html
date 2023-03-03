@@ -17,30 +17,18 @@
     <div class = "container">
         <h1 class="title">Hangman (le jeu du pendu)</h1>
         <div class="content">
-            <img src="../img/hangman.png" class="extra_content">
             <div class="intro">
                 <h2 class="subtitle"> Le jeu du pendu</h2>
                 <p>Le jeu du pendu est un jeu populaire qui a été créé il y a plusieurs siècles. L'origine exacte du jeu n'est pas claire, mais il est probable qu'il ait été inventé en Europe ou en Angleterre. Au fil des ans, le jeu a été adapté et modifié pour inclure des règles différentes et des variantes régionales, mais l'idée de base reste la même : deviner un mot en proposant des lettres jusqu'à ce que toutes les lettres soient trouvées ou jusqu'à ce que le joueur ait épuisé toutes ses chances.</p>
                 <p>Le joueur doit deviner un mot en proposant des lettres une par une. Si la lettre proposée est dans le mot, elle est placée dans sa position respective. Si la lettre n'est pas dans le mot, le joueur est pénalisé en ajoutant une partie de la silhouette d'un homme suspendu à une corde. Le but est de deviner le mot avant que la silhouette ne soit complétée, sinon le joueur perd. Le nombre de tentatives dépend des règles établies, mais généralement, les joueurs ont environ six chances pour deviner le mot.</p>
             </div>
-            <div class="analyse">
-                <h2 class="subtitle">Mon Implémentation du Jeu de la Vie</h2>       
-                <p>Le programme commence par importer les modules nécessaires pour le jeu de la vie, notamment la bibliothèque Pygame, la bibliothèque NumPy pour le traitement des tableaux, ainsi que des modules personnalisés pour le chargement et l'affichage de certains éléments.</p>
-                   <p> Ensuite, le programme définit les couleurs utilisées pour l'arrière-plan, la grille, les cellules vivantes et mortes, ainsi que la couleur du texte.</p>
-                    <p>Le programme initialise la fenêtre Pygame avec une taille de 1000x830 pixels, charge une image d'arrière-plan et crée un tableau de cellules de taille 80x100, initialisées à zéro. L'affichage initial de la grille est créé en appelant la fonction "update".</p>
-                   <p> Le programme entre ensuite dans une boucle principale qui lit les événements Pygame (tels que les clics de souris et les touches du clavier) et met à jour l'état des cellules en fonction des événements. Le programme permet également de charger des motifs de cellules prédéfinis à partir de touches spécifiques du clavier.</p>
-                    <p>Si l'utilisateur appuie sur la touche d'espace, la simulation démarre ou s'arrête en fonction de son état actuel. Si l'utilisateur appuie sur la touche "q" ou "échap", le programme se termine. Si l'utilisateur appuie sur la touche "r", les règles du jeu de la vie sont affichées à l'écran.</p>
-                    <p>Si la simulation est en cours, le programme met à jour l'état des cellules à chaque itération de la boucle principale en utilisant la fonction "update". Le programme calcule également des statistiques sur l'état actuel des cellules, telles que le nombre de cellules vivantes et mortes, et les affiche à l'écran.</p>
-                   <p> Enfin, le programme utilise une fonction "time.sleep" pour ralentir la boucle principale et réduire la charge du processeur.</p></p>
-            </div>
             <div class="installation">
-                <h2 class="subtitle">Pour tester ce programme sur Linux :</h2>
+                <h2 class="subtitle">Tester mon programme (Linux)</h2>
                 <p>Il vous suffira d'avoir le compilateur gcc installé pour compiler le programme dans un executable.</p>
                 <p>Le code source de mon implémentation se trouve sur Github, vous pouvez donc cloner ce projet en vous rendant sur mon Github ou alors avec la commande :</p>
                 <code>git clone github.com/victorgrt/hangman.git</code>
                 <p>Une fois le dossier clonné, utiliser la commande ci-dessous pour lancer la compilation et lancer l'éxécutable :</p>
                 <code>make && ./a.out</code>
-                <a href=""></a></code>
                 <p>Une fois sur le programme lancé un mot ainsi que l'échaffau devraient apparaître. Vous pouvez essayer des lettres directement dans le terminal.</p>
             </div>
             <div class="preview_container"><img src="./preview/hangman/preview3.png"><img src="./preview/hangman/preview1.png"><img src="./preview/hangman/preview2.png"></div>

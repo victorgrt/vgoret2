@@ -2,7 +2,7 @@ body{
     background-color: black;
     margin: 0;
     font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
-    background: linear-gradient(0.25turn, white, white, #212529,white,  white);
+    background: linear-gradient(0.25turn, #ed2b22, white,white,  #ed2b22);
 }
 
 nav {

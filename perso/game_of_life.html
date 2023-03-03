@@ -32,18 +32,9 @@
                 <p>Parmi les motifs les plus connus du jeu de la vie, on peut citer le planeur, qui se déplace dans l'espace en conservant sa forme, le canon à planeurs, qui tire des planeurs à intervalles réguliers, ou encore la ruche, une structure stable qui évolue en libérant des planeurs à intervalles réguliers.</p>
                 <p>En implémentant le jeu de la vie en Python, vous pouvez découvrir par vous-même les merveilles de ce système fascinant, explorer différents modèles et configurations, et peut-être même créer vos propres structures émergentes intéressantes.</p>
             </div>
+
             <div class="analyse">
-                <h2 class="subtitle">Mon Implémentation du Jeu de la Vie</h2>       
-                <p>Le programme commence par importer les modules nécessaires pour le jeu de la vie, notamment la bibliothèque Pygame, la bibliothèque NumPy pour le traitement des tableaux, ainsi que des modules personnalisés pour le chargement et l'affichage de certains éléments.</p>
-                   <p> Ensuite, le programme définit les couleurs utilisées pour l'arrière-plan, la grille, les cellules vivantes et mortes, ainsi que la couleur du texte.</p>
-                    <p>Le programme initialise la fenêtre Pygame avec une taille de 1000x830 pixels, charge une image d'arrière-plan et crée un tableau de cellules de taille 80x100, initialisées à zéro. L'affichage initial de la grille est créé en appelant la fonction "update".</p>
-                   <p> Le programme entre ensuite dans une boucle principale qui lit les événements Pygame (tels que les clics de souris et les touches du clavier) et met à jour l'état des cellules en fonction des événements. Le programme permet également de charger des motifs de cellules prédéfinis à partir de touches spécifiques du clavier.</p>
-                    <p>Si l'utilisateur appuie sur la touche d'espace, la simulation démarre ou s'arrête en fonction de son état actuel. Si l'utilisateur appuie sur la touche "q" ou "échap", le programme se termine. Si l'utilisateur appuie sur la touche "r", les règles du jeu de la vie sont affichées à l'écran.</p>
-                    <p>Si la simulation est en cours, le programme met à jour l'état des cellules à chaque itération de la boucle principale en utilisant la fonction "update". Le programme calcule également des statistiques sur l'état actuel des cellules, telles que le nombre de cellules vivantes et mortes, et les affiche à l'écran.</p>
-                   <p> Enfin, le programme utilise une fonction "time.sleep" pour ralentir la boucle principale et réduire la charge du processeur.</p></p>
-            </div>
-            <div class="installation">
-                <h2 class="subtitle">Pour tester ce programme sur Linux :</h2>
+                <h2 class="subtitle">Tester mon programme (Linux)</h2>
                 <p>Tout d'abord assurez vous d'avoir Python3 et la librairie Pygame installés. Sans eux le programme ne fonctionnera pas.</p>
                 <p>Le code source de mon implémentation se trouve sur Github, vous pouvez donc cloner ce projet en vous rendant sur mon Github ou alors avec la commande :</p>
                 <code>git clone github.com/victorgrt/game_of_life.git</code>
@@ -51,7 +42,7 @@
                 <code>python3 main.py</code>
                 <p>Une fois sur le programme lancé vous pouver vous amuser a placer vos cellules manuelement ou placer différents patternes (répertoriés dans les règles, appuyer sur la touche "R"). Have Fun :)</p>
             </div>
-            <div class="preview_container"><img src="./preview/preview1.png"><img src="./preview/preview2.png"><img src="./preview/preview3.png"></div>
+            <div class="preview_container"><img src="./preview/game_of_life/preview1.png"><img src="./preview/game_of_life/preview2.png"><img src="./preview/game_of_life/preview3.png"></div>
         </div>
     </div>
 </body>
