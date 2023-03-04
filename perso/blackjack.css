@@ -107,6 +107,17 @@ nav>a:hover {
     margin-top: 1%;
 }
 
+.extra_content2{
+    background-color:rgba(255,255, 255, 0.5);
+    box-shadow: 3px 3px 5px 0 rgba(1, 1, 1, 1);
+    border-radius: 10px;
+    color: black;
+    width: 20%;
+    right: 70%;
+    position : absolute;
+    padding : 1%;
+}
+
 li{
     margin-bottom: 2%;
     padding:1%;
